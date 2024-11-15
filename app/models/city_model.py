@@ -1,7 +1,7 @@
 from sqlalchemy import CHAR, Column, ForeignKey, Integer, text
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
-from app.models.country import Country
+from app.models.country_model import Country
 
 Base = declarative_base()
 

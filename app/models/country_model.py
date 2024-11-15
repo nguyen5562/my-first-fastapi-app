@@ -1,6 +1,5 @@
 from sqlalchemy import CHAR, Column, DECIMAL, Enum, Integer, SmallInteger, text
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
 
 Base = declarative_base()
 

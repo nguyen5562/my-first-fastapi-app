@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.routers import countries
+from app.routers import country_router
 
 app = FastAPI()
 
-app.include_router(countries.router, prefix="/api", tags=["country"])
+app.include_router(country_router.router, prefix="/api", tags=["Country"])

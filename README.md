@@ -9,3 +9,4 @@
 - FastAPI
 - Uvicorn
 - Pydantic
+- Asyncmy

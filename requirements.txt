@@ -6,3 +6,4 @@ pymysql
 passlib[bcrypt]
 email-validator
 sqlacodegen
+asyncmy
